@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Lottie from "react-lottie";
 import * as dots from '../assets/loading.json';
 import App from "../App";
+import '../index.css';
 
 const defaultOptions = {
     loop: true,
@@ -23,7 +24,7 @@ function Loading() {
 
     return (
         <>
-            {!completed ? (<Lottie options={defaultOptions} height={200} width={200} />) : (<App/>)}
+            {!completed ? <div className="loading"> <Lottie options={defaultOptions} height={200} width={200} /> </div> : <App/>}
         </>
     );
 }

@@ -1,4 +1,123 @@
-body {
+html, body {
   margin: 0;
   background: #2f3136;
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  font-family: 'Lexend Deca', sans-serif;
+  color: white !important;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.main {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  position: absolute;
+}
+
+.loading {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.canvas {
+  height: 110% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  position: absolute;
+  color: white;
+  font-family: "Courier New", monospace;
+  font-weight: bolder;
+  font-size: 24px;
+  opacity: 50%;
+  background: #202225;
+}
+
+.fadeOut {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background: linear-gradient(to bottom, rgba(47,49,54,0) 0%, rgba(47,49,54,1) 100%);
+}
+
+.sideBar {
+  height: 100% !important;
+  width: 25% !important;
+  margin: 0 !important;
+  position: fixed;
+  background: linear-gradient(to right, rgba(32,34,37,1) 0%, rgba(32,34,37,1) 65%, rgba(32,34,37,0) 100%);
+  float: left;
+}
+
+.sideBar ul {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.sideBar ul li a {
+  padding: 15px 30px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 20px;
+}
+
+.blue:hover {
+  background: linear-gradient(to right, rgba(83, 166, 184, 1) 0%, rgba(83, 166, 184, 1) 65%, rgba(83, 166, 184, 0) 100%);
+  text-shadow: 1px 1px 1px #4c5657;
+}
+
+.green:hover {
+  background: linear-gradient(to right, rgba(124, 193, 86, 1) 0%, rgba(124, 193, 86, 1) 65%, rgba(124, 193, 86, 0) 100%);
+  text-shadow: 1px 1px 1px #4c5657;
+}
+
+.yellow:hover {
+  background: linear-gradient(to right, rgba(252, 212, 63, 1) 0%, rgba(252, 212, 63, 1) 65%, rgba(252, 212, 63, 0) 100%);
+  text-shadow: 1px 1px 1px #4c5657;
+}
+
+.orange:hover {
+  background: linear-gradient(to right, rgba(254, 162, 61, 1) 0%, rgba(254, 162, 61, 1) 65%, rgba(254, 162, 61, 0) 100%);
+  text-shadow: 1px 1px 1px #4c5657;
+}
+
+.pink:hover {
+  background: linear-gradient(to right, rgba(226, 76, 111, 1) 0%, rgba(226, 76, 111, 1) 65%, rgba(226, 76, 111, 0) 100%);
+  text-shadow: 1px 1px 1px #4c5657;
+}
+
+.home {
+  width: 75%;
+  height: 110% !important;
+  float: right;
+  position: sticky;
+}
+
+.section {
+  width: 75%;
+  height: 100% !important;
+  float: right;
+  position: sticky;
+  margin: 0 !important;
+}
+

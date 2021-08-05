@@ -1,8 +1,6 @@
 function Home() {
     return (
-        <div>
-            <p>txt</p>
-        </div>
+        <div className="home" id="home">temp</div>
     );
 }
 

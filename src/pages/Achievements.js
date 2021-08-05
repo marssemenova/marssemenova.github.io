@@ -1,8 +1,6 @@
 function Achievements() {
     return (
-        <div>
-            <p>txt</p>
-        </div>
+        <div className="section" id="achievements">temp</div>
     );
 }
 

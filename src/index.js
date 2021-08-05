@@ -7,6 +7,6 @@ ReactDOM.render(
     <React.StrictMode>
         <Loading />
     </React.StrictMode>,
-    document.getElementById('root')
+    document.getElementById('root'),
 );
 
