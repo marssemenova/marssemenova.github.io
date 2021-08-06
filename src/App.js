@@ -1,6 +1,6 @@
 import Canvas from "./components/Canvas"
 import SideBar from "./components/SideBar";
-import Home from './pages/Home';
+import Profile from './pages/Profile';
 import Knowledge from "./pages/Knowledge";
 import Experience from './pages/Experience';
 import Achievements from './pages/Achievements';
@@ -11,7 +11,7 @@ function App() {
         <div className="main">
             <Canvas/>
             <SideBar/>
-            <Home/>
+            <Profile/>
             <Knowledge/>
             <Experience/>
             <Achievements/>
