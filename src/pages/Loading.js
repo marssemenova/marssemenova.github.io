@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Lottie from "react-lottie";
 import * as dots from '../assets/loading.json';
 import App from "../App";
-import '../index.css';
 
 const defaultOptions = {
     loop: true,

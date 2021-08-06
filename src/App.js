@@ -5,7 +5,6 @@ import Knowledge from "./pages/Knowledge";
 import Experience from './pages/Experience';
 import Achievements from './pages/Achievements';
 import Projects from './pages/Projects';
-import './index.css';
 
 function App() {
     return(

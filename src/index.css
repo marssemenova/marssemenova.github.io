@@ -81,31 +81,6 @@ html, body {
   font-size: 20px;
 }
 
-.blue:hover {
-  background: linear-gradient(to right, rgba(83, 166, 184, 1) 0%, rgba(83, 166, 184, 1) 65%, rgba(83, 166, 184, 0) 100%);
-  text-shadow: 1px 1px 1px #4c5657;
-}
-
-.green:hover {
-  background: linear-gradient(to right, rgba(124, 193, 86, 1) 0%, rgba(124, 193, 86, 1) 65%, rgba(124, 193, 86, 0) 100%);
-  text-shadow: 1px 1px 1px #4c5657;
-}
-
-.yellow:hover {
-  background: linear-gradient(to right, rgba(252, 212, 63, 1) 0%, rgba(252, 212, 63, 1) 65%, rgba(252, 212, 63, 0) 100%);
-  text-shadow: 1px 1px 1px #4c5657;
-}
-
-.orange:hover {
-  background: linear-gradient(to right, rgba(254, 162, 61, 1) 0%, rgba(254, 162, 61, 1) 65%, rgba(254, 162, 61, 0) 100%);
-  text-shadow: 1px 1px 1px #4c5657;
-}
-
-.pink:hover {
-  background: linear-gradient(to right, rgba(226, 76, 111, 1) 0%, rgba(226, 76, 111, 1) 65%, rgba(226, 76, 111, 0) 100%);
-  text-shadow: 1px 1px 1px #4c5657;
-}
-
 .home {
   width: 75%;
   height: 110% !important;
