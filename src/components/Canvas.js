@@ -7,11 +7,9 @@ class Canvas extends React.Component {
     }
 
     changeBg() {
-        let bg = "";
-        let r = 0;
-        let n = 0;
+        let bg = "", r = 0, n = 0;
 
-        for (let x = 0; x < 25; x++) {
+        for (let x = 0; x < 100; x++) {
             for (let i = 0; i < 100; i++) {
                 r = Math.floor(Math.random() * 25) + 1;
                 n = Math.floor(Math.random() * 2);
@@ -35,7 +33,7 @@ class Canvas extends React.Component {
     }
 
     componentDidMount() {
-        this.interval = setInterval(() => this.setState({ bg: this.changeBg() }), 5000);
+        this.interval = setInterval(() => this.setState({ bg: this.changeBg() }), 1000);
     }
 
     componentWillUnmount() {
