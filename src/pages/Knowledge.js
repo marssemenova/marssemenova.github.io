@@ -1,6 +1,13 @@
+import React from "react";
+import ScrollableAnchor from "react-scrollable-anchor";
+
 function Knowledge() {
     return (
-        <div className="section" id="knowledge">temp</div>
+        <ScrollableAnchor id={"knowledge"}>
+            <div className="section">
+                <h1>knowledge</h1>
+            </div>
+        </ScrollableAnchor>
     );
 }
 

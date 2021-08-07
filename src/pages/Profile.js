@@ -1,6 +1,15 @@
+import React from "react";
+import ScrollableAnchor from "react-scrollable-anchor";
+
 function Profile() {
     return (
-        <div className="profile" id="profile">temp</div>
+        <ScrollableAnchor id={"profile"}>
+            <div className="profile">
+                <div className="card">
+
+                </div>
+            </div>
+        </ScrollableAnchor>
     );
 }
 

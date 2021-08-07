@@ -5,11 +5,11 @@ class SideBar extends React.Component {
     render() {
         return <div className="sideBar">
             <ul>
-                <Tab r={83} g={166} b={184} page="profile"/>
-                <Tab r={124} g={193} b={86} page="knowledge" />
-                <Tab r={252} g={212} b={63} page="experience" />
-                <Tab r={254} g={162} b={61} page="achievements" />
-                <Tab r={226} g={76} b={111} page="projects" />
+                <Tab colour="blue" page="profile"/>
+                <Tab colour="green" page="knowledge" />
+                <Tab colour="yellow" page="experience" />
+                <Tab colour="orange" page="achievements" />
+                <Tab colour="pink" page="projects" />
             </ul>
         </div>;
     }

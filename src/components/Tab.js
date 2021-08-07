@@ -4,9 +4,18 @@ import {style} from "typestyle";
 class Tab extends React.Component {
     render() {
         const colours = style({
+            padding: "10px 20px",
+            textDecoration: "none",
+            display: "block",
+            color: "white",
+            fontSize: "16px",
+            border: "var(--" + this.props.colour + ") 2px solid",
+            margin: "15px",
+            borderRadius: "50px",
+
             $nest: {
                 "&:hover": {
-                    background: "linear-gradient(to right, rgba(" + this.props.r + ", " + this.props.g + ", " + this.props.b + ", 1) 0%, rgba(" + this.props.r + ", " + this.props.g + ", " + this.props.b + ", 1) 65%, rgba(" + this.props.r + ", " + this.props.g + ", " + this.props.b + ", 0) 100%)",
+                    background: "var(--" + this.props.colour + ")",
                     textShadow: "1px 1px 1px #4c5657"
                 }
             }
