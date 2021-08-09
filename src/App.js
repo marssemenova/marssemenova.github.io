@@ -6,12 +6,18 @@ import Knowledge from "./pages/Knowledge";
 import Experience from './pages/Experience';
 import Achievements from './pages/Achievements';
 import Projects from './pages/Projects';
+import MobileSideBar from "./components/MobileSideBar";
+import { useMediaQuery } from "react-responsive";
+import { maxSize } from "./assets";
 
 function App() {
+    const isMobile = useMediaQuery({ maxWidth: maxSize });
+
     return(
         <div className="main">
             <Canvas/>
-            <SideBar/>
+            {!isMobile && <SideBar mobile={false} />}
+            {isMobile && <MobileSideBar />}
             <Profile/>
             <Knowledge/>
             <Experience/>

@@ -7,7 +7,10 @@
   --orange: #fea23d;
   --pink: #e24c6f;
   --bar: 180px;
-  --screen: calc(100% - 180px);
+  --screen: calc(100% - var(--bar));
+  --hambar: 50px;
+  --hamscreen: calc(100% - var(--hambar));
+  --mobileComp: 0%;
 }
 
 html, body {
@@ -103,7 +106,7 @@ html, body {
 }
 
 .card {
-  height: 75%;
+  height: calc(75% - var(--mobileComp));
   width: 70%;
   position: absolute;
   top: 46%;
